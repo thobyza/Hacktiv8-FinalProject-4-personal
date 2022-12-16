@@ -1,0 +1,46 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(bg-2.jpg);
+}
+
+/* Card */
+.card {
+    background: rgba(255, 255, 255, 0.482);
+    backdrop-filter: saturate(180%) blur(10px);
+    border-style: none;
+}
+
+/* btn */
+.btn-search {
+    border-radius: 6px;
+    border-width: 1px;
+    background-color: #D8D8D8;
+    color: #8C8C8C;
+}
+
+.btn-search:hover {
+    border-color: rgb(138, 138, 138);
+    color: rgb(120, 120, 120);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: rgb(138, 138, 138);  
+}
+
+/*  */
+#map { 
+    height: 70vh;
+    width: 70%;
+    justify-content: center;
+    border-radius: 12px;
+  }
+  
+  .leaflet-popup-content-wrapper {
+    width: 100%;
+  }
+  
+  
